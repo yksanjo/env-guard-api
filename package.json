@@ -1,0 +1,30 @@
+{
+  "name": "envguard",
+  "version": "1.0.0",
+  "description": "Secure, team-based env variable management with audit trails and rotation",
+  "main": "src/index.js",
+  "bin": {
+    "envguard": "./src/index.js"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "jest"
+  },
+  "keywords": ["env", "variables", "security", "cli", "audit"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^12.0.0",
+    "crypto-js": "^4.2.0",
+    "dotenv": "^16.4.1",
+    "inquirer": "^9.2.16",
+    "ora": "^5.4.1",
+    "prompt-sync": "^4.2.0",
+    "sql.js": "^1.10.3",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
