@@ -8,9 +8,15 @@
   },
   "scripts": {
     "start": "node src/index.js",
-    "test": "jest"
+    "test": "node --test tests/*.test.cjs"
   },
-  "keywords": ["env", "variables", "security", "cli", "audit"],
+  "keywords": [
+    "env",
+    "variables",
+    "security",
+    "cli",
+    "audit"
+  ],
   "author": "",
   "license": "MIT",
   "dependencies": {
