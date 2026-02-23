@@ -1,5 +1,12 @@
 # env-guard-api
 
+Production-grade project scaffold focused on reliability, maintainability, and fast onboarding.
+
+[![CI](https://img.shields.io/github/actions/workflow/status/yksanjo/env-guard-api/ci.yml?branch=main&label=ci)](https://github.com/yksanjo/env-guard-api/actions)
+![License](https://img.shields.io/github/license/yksanjo/env-guard-api)
+![Last Commit](https://img.shields.io/github/last-commit/yksanjo/env-guard-api)
+![Repo Size](https://img.shields.io/github/repo-size/yksanjo/env-guard-api)
+
 ## Detailed Description
 
 env-guard-api is maintained as an industry-grade software project with production-ready engineering practices.  
